@@ -1,7 +1,10 @@
-import React from 'react'
 import styles from "./white.module.css"
-const index = ({text}) => {
-  return <button className={styles.vercel_button}>{text}</button>;
+const index = ({text,className}) => {
+  return (
+    <button id={styles.vercel_button} className={className}>
+      {text}
+    </button>
+  );
 }
 
 export default index
