@@ -1,0 +1,64 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    position: sticky;
+    margin: auto;
+    border-bottom: 1px solid gray;
+    backdrop-filter: blur(200px);
+}
+.buttonsContainer{
+    display: flex;
+    gap: 10px;
+}
+.navbar a {
+    color: lightgray;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: all .3s;
+}
+/* Styles for a disabled link */
+a:disabled {
+    color: grey;
+    text-decoration: none;
+    cursor: not-allowed;
+}
+
+.navbar a:hover {
+    color: white;
+}
+/* Media query for screens smaller than 768px (e.g., smartphones) */
+@media (max-width: 767px) {
+    .navbar a {
+        font-size: 16px;
+        padding: 0.3rem;
+    }
+}
+
+/* Media query for screens between 768px and 991px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar a {
+        font-size: 18px;
+        padding: 0.4rem;
+    }
+}
+
+/* Media query for screens between 992px and 1199px (e.g., small desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar a {
+        font-size: 22px;
+        padding: 0.45rem;
+    }
+}
+
+/* Media query for screens larger than 1200px (e.g., large desktops) */
+@media (min-width: 1200px) {
+    .navbar a {
+        font-size: 24px;
+        padding: 0.5rem;
+    }
+}

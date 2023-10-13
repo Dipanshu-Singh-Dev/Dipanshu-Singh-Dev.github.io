@@ -1,0 +1,38 @@
+.container {
+    font-family: Inter, sans-serif;
+    padding:10px 10%;
+text-align: center;
+}
+.container img{
+    border-radius: 100%;
+    padding: 5px;
+    border: 2px solid ghostwhite;
+}
+.intro{
+    color: ghostwhite;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0 25px;
+}
+.position{
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+}
+.imgNDesc{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    border-top: 2px soild ghostwhite;
+    border-bottom: 2px soild ghostwhite;
+    justify-content: center;
+    margin: 20px 10px;
+}
+
+.head2{
+    color: ghostwhite;
+    font-size: 30px;
+    font-family: Inter, sans-serif;
+}
