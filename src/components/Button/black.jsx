@@ -1,9 +1,11 @@
 import React from 'react'
 import styles from "./black.module.css"
-const black = ({text}) => {
+const black = ({text,className}) => {
   return (
-    <button className={styles.vercel_button}>{text}</button>
-  )
+    <button className={className} id={styles.vercel_button}>
+      {text}
+    </button>
+  );
 }
 
 export default black
