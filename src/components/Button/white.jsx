@@ -1,10 +1,12 @@
 import styles from "./white.module.css"
-const index = ({text,className,icon}) => {
+const index = ({text,className,icon,id}) => {
   return (
-    <button id={styles.vercel_button} className={className}>
-      {icon && <img src={icon} alt="icon" />}
-      {text}
-    </button>
+    <div id={styles.vercel_button}>
+      <button id={id} className={className}>
+        {icon && <img src={icon} alt="icon" />}
+        {text}
+      </button>
+    </div>
   );
 }
 

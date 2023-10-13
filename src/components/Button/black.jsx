@@ -1,11 +1,12 @@
-import React from 'react'
 import styles from "./black.module.css"
-const black = ({text,className,icon}) => {
+const black = ({text,className,icon,id}) => {
 return (
-  <button className={className} id={styles.vercel_button}>
-    {icon && <img src={icon} alt="icon" />}
-    {text}
-  </button>
+  <div id={styles.vercel_button}>
+    <button id={id} className={className}>
+      {icon && <img src={icon} alt="icon" />}
+      {text}
+    </button>
+  </div>
 );
 }
 

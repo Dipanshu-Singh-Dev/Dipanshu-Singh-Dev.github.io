@@ -20,13 +20,9 @@ const Navbar = () => {
         Contact
       </a>
       <div className={styles.buttonsContainer}>
-        <WhiteButton
-          className="nav-link resume"
-          text="Resume"
-        />
+        <WhiteButton id="resume-button-1" className="nav-link resume" text="Resume"/>
         <BlackButton text="Github" />
       </div>
-      
     </nav>
   );
 };

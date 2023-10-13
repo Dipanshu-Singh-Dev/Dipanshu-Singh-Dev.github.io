@@ -9,6 +9,7 @@ const index = () => {
 
       <div className={styles.imgNDesc}>
         <img
+          className="home-img"
           src="https://i.ibb.co/hBvkVkx/profile-removebg-preview.png"
           alt="profile"
         />
