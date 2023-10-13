@@ -4,9 +4,9 @@ import Head1 from "../Head1"
 import Seperator from "../Seperator"
 const index = () => {
   return (
-    <div className={styles.container}>
+    <div id="skills" className={styles.container}>
       <Head1 text="Skills" />
-      <Seperator/>
+      <Seperator />
     </div>
   );
 }

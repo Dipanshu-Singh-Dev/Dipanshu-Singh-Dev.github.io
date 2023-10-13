@@ -4,9 +4,9 @@ import Head1 from "../Head1"
 import Seperator from "../Seperator"
 const index = () => {
   return (
-    <div className={styles.container}>
-      <Head1 text="About Me"/>
-      
+    <div id="about" className={styles.container}>
+      <Head1 text="About Me" />
+
       <div className={styles.imgNDesc}>
         <img
           src="https://i.ibb.co/hBvkVkx/profile-removebg-preview.png"
@@ -26,7 +26,7 @@ const index = () => {
           </p>
         </div>
       </div>
-      <Seperator/>
+      <Seperator />
     </div>
   );
 }
