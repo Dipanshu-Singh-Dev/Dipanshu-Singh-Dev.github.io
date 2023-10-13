@@ -13,8 +13,10 @@ const index = () => {
           alt="profile"
         />
         <div>
-          <h2 className={styles.head2}>Hi! I'm Dipanshu Singh.</h2>
-          <p className={styles.intro}>
+          <h2 id="user-detail-name" className={styles.head2}>
+            Hi! I'm Dipanshu Singh.
+          </h2>
+          <p id="user-detail-intro" className={styles.intro}>
             <span className={styles.position}>Full Stack Web Developer</span>{" "}
             with proficiency in working with interdisciplinary teams and
             executing goal-oriented projects. Demonstrated expertise in writing
