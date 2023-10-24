@@ -1,0 +1,21 @@
+#svg{
+ cursor: pointer;
+ height: 45px;
+ stroke:#d3d3d3;
+ transition: all 0.3s ease-in-out;
+}
+#svg path{
+    stroke: #d3d3d3;
+    transition: all 0.3s ease-in-out;
+}
+#svg:hover{
+    stroke: white;
+}
+#svg:hover path {
+    stroke: white;
+}
+@media screen and (min-width: 768px) {
+    #svg{
+        display: none;
+    }
+}

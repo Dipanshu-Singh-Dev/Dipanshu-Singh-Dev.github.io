@@ -8,7 +8,11 @@
     border: 2px solid lightgray;
     border-radius: 6px;
     padding: 8px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
+    gap: 5px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -16,4 +20,19 @@
 border-color: white;
 background-color: #212121;
 color: white;
+}
+#vercel_button svg {
+    height: 24px;
+    stroke: lightgray;
+    transition: all 0.3s ease-in-out;
+}
+
+#vercel_button:hover svg {
+    stroke: white;
+}
+
+@media screen and (max-width: 768px) {
+    #vercel_button svg{
+display: none;
+    }
 }
