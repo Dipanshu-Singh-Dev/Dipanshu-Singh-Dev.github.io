@@ -1,11 +1,18 @@
 .container {
     font-family: Inter, sans-serif;
-    padding:10px 10%;
-text-align: center;
+    padding:10px 10px;
+    background: none transparent;
+    text-align: center;
+
 }
+.container *{
+    background: transparent;
+}
+
 .container img{
     border-radius: 100%;
     padding: 5px;
+    margin: auto;
     border: 2px solid ghostwhite;
 }
 .intro{
@@ -14,11 +21,10 @@ text-align: center;
     word-spacing: 2px;
     font-weight: 500;
     font-size: 18px;
-    padding: 0 25px;
 }
 .position{
     font-size: 24px;
-    font-weight: 800;
+    font-weight: 600;
     color: white;
 }
 .imgNDesc{
@@ -28,11 +34,51 @@ text-align: center;
     border-top: 2px soild ghostwhite;
     border-bottom: 2px soild ghostwhite;
     justify-content: center;
-    margin: 20px 10px;
+    margin: 20px auto;
 }
 
 .head2{
     color: ghostwhite;
     font-size: 30px;
+    font-weight: 700;
     font-family: Inter, sans-serif;
+}
+@media screen and (min-width: 768px ) and (max-width: 1024px){
+    .imgNDesc {
+            flex-direction: column;
+    }
+    
+    .container img {
+            width: 50%;
+    }
+    
+    .position {
+            font-size: 20px;
+    }
+    
+    .intro {
+            font-size: 18px;
+            letter-spacing: .5px;
+            word-spacing: 1px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .imgNDesc{
+        flex-direction: column;
+    }
+    .container img{
+        width: 50%;
+    }
+    .head2{
+        font-size: 20px;
+    }
+    .position{
+        font-size: 16px;
+    }
+    .intro{
+        font-size: 14px;
+        letter-spacing: 0px;
+        word-spacing: 1px;
+    }
 }

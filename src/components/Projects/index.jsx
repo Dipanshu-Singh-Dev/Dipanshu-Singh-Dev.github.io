@@ -2,7 +2,7 @@ import React from 'react'
 import styles from "./styles.module.css"
 const index = () => {
   return (
-    <div>index</div>
+    <div id={styles.container}>index</div>
   )
 }
 

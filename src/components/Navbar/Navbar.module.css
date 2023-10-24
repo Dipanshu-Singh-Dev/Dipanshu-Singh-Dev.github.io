@@ -1,11 +1,13 @@
 .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
-    position: sticky;
+    padding: 20px 10px;
     margin: auto;
     border-bottom: 1px solid gray;
-    backdrop-filter: blur(200px);
+    backdrop-filter: blur(20px);
 }
 .buttonsContainer{
     display: flex;

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./styles.module.css"
-import Head1 from "../Head1"
+import Head1 from "../Head1/Head1"
 import Seperator from "../Seperator"
 const index = () => {
   return (

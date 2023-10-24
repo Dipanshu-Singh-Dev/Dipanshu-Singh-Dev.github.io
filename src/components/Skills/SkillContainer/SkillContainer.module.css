@@ -1,0 +1,9 @@
+.container p{
+    color: lightgray;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+.container:hover p{
+    color: white;
+}
