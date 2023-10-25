@@ -1,6 +1,7 @@
 #svg{
  cursor: pointer;
  height: 45px;
+aspect-ratio: 1;
  stroke:#d3d3d3;
  transition: all 0.3s ease-in-out;
 }

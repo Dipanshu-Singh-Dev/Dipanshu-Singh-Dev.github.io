@@ -8,4 +8,5 @@ import MongoDBSVG from "./MongoDBSVG/MongoDBSVG"
 import ExpressJSSVG from "./ExpressJSSVG/ExpressJSSVG";
 import ExternalLinkSVG from "./ExternalLinkSVG/ExternalLinkSVG";
 import Hamburger from "./HamburgerSVG/Hamburger";
-export { FirebaseSVG, ReactSVG, NodeJSSVG, JavascriptSVG, Html5SVG, Css3SVG,MongoDBSVG,ExpressJSSVG,ExternalLinkSVG,Hamburger };
+import CrossSVG from "./CrossSVG/CrossSVG";
+export { FirebaseSVG, ReactSVG, NodeJSSVG, JavascriptSVG, Html5SVG, Css3SVG,MongoDBSVG,ExpressJSSVG,ExternalLinkSVG,Hamburger,CrossSVG };

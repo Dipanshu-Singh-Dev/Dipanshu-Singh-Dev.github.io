@@ -1,0 +1,10 @@
+#svg{
+    height: 45px;
+    aspect-ratio: 1;
+    fill: lightgray;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+#svg:hover{
+    fill: white;
+}

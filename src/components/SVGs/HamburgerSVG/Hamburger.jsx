@@ -1,8 +1,8 @@
 import styles from "./Hamburger.module.css";
-const Hamburger = ({handleCLick}) => {
+const Hamburger = ({handleClick}) => {
   return (
     <svg
-    onClick={handleCLick}
+    onClick={handleClick}
     id={styles.svg}
       viewBox="0 0 24 24"
       fill="none"

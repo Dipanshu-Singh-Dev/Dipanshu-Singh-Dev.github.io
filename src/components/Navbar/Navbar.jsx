@@ -1,12 +1,20 @@
 import styles from "./Navbar.module.css"
 import WhiteButton from "../Button/white"
 import BlackButton from "../Button/black"
-import { Hamburger } from "../SVGs";
+import Sidebar from "./Sidebar/Sidebar";
+import { CrossSVG, Hamburger } from "../SVGs";
+import { useState } from "react";
 const Navbar = () => {
-  const handleCLick = ()=>console.log("clicked")
+  const handleClick = () => setSidebaropen((prev) => !prev);
+  const [sidebarOpen,setSidebaropen] = useState(false)
   return (
     <nav id="nav-menu" className={styles.navbar}>
-      <Hamburger handleCLick={handleCLick} />
+      {sidebarOpen ? (
+        <CrossSVG handleClick={handleClick} />
+      ) : (
+        <Hamburger handleClick={handleClick} />
+      )}
+      {sidebarOpen && <Sidebar sidebarOpen />}
       <div id={styles.options}>
         <a className="nav-link home" href="#home">
           Home
