@@ -4,7 +4,7 @@ transition: all 0.3s ease-in-out;
 height: 64px;
 }
 #svg path{
-    stroke-width: 1%;
+    stroke-width: 0%;
     fill: lightgray;
     stroke: lightgray;
     transition: all 0.3s ease-in-out;

@@ -10,10 +10,10 @@
 }
 
 .container img{
-    border-radius: 100%;
     padding: 5px;
     margin: auto;
-    border: 2px solid ghostwhite;
+    border: 2px solid lightgray;
+    border-radius: 100%;
 }
 .intro{
     color: ghostwhite;
@@ -45,21 +45,25 @@
 }
 @media screen and (min-width: 768px ) and (max-width: 1024px){
     .imgNDesc {
-            flex-direction: column;
+            flex-direction: row;
     }
     
     .container img {
-            width: 50%;
+            width: 40%;
     }
-    
+    .head2 {
+        text-align: left;
+            font-size: 24px;
+    }
     .position {
-            font-size: 20px;
+            font-size: 18px;
     }
     
     .intro {
-            font-size: 18px;
-            letter-spacing: .5px;
-            word-spacing: 1px;
+        text-align: left;
+        font-size: 16px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
     }
 }
 
@@ -71,13 +75,13 @@
         width: 50%;
     }
     .head2{
-        font-size: 20px;
-    }
-    .position{
         font-size: 16px;
     }
+    .position{
+        font-size: 13px;
+    }
     .intro{
-        font-size: 14px;
+        font-size: 11px;
         letter-spacing: 0px;
         word-spacing: 1px;
     }

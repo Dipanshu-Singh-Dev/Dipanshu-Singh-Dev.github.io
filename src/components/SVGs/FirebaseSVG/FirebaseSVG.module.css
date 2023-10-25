@@ -1,6 +1,7 @@
 #svg{
     fill: rgb(0, 0, 0);
     stroke: lightgray;
+    stroke-width: 5%;
     transition: all .3s ease-in-out;
 }
 #svg:hover{
@@ -10,7 +11,7 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     #svg {
         height: 52px;
-                font-size: 14px;
+        font-size: 14px;
     }
 }
 

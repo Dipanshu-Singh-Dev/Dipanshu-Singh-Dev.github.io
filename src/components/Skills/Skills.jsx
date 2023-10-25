@@ -23,12 +23,16 @@ const index = () => {
       name: "NodeJS",
     },
     {
-      icon: <JavascriptSVG />,
-      name: "JavaScript",
+      icon: <MongoDBSVG />,
+      name: "MongoDB",
     },
     {
-      icon: <FirebaseSVG />,
-      name: "Firebase",
+      icon: <ExpressJSSVG />,
+      name: "ExpressJS",
+    },
+    {
+      icon: <JavascriptSVG />,
+      name: "JavaScript",
     },
     {
       icon: <Html5SVG />,
@@ -39,12 +43,8 @@ const index = () => {
       name: "CSS3",
     },
     {
-      icon: <MongoDBSVG />,
-      name: "MongoDB",
-    },
-    {
-      icon: <ExpressJSSVG />,
-      name: "ExpressJS",
+      icon: <FirebaseSVG />,
+      name: "Firebase",
     },
   ];
   return (
