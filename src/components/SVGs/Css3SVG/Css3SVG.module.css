@@ -1,9 +1,16 @@
 #svg{
-fill: lightgray;
+stroke: lightgray;
 transition: all 0.3s ease-in-out;
 height: 64px;
 }
-#svg:hover {
+#svg path{
+    stroke-width: 1%;
+    fill: lightgray;
+    stroke: lightgray;
+    transition: all 0.3s ease-in-out;
+}
+#svg:hover path{
+    stroke: white;
     fill: white;
 }
 
