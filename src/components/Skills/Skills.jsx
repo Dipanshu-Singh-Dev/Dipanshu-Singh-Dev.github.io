@@ -2,16 +2,15 @@ import styles from "./Skills.module.css"
 import Head1 from "../Head1/Head1"
 import Seperator from "../Seperator"
 import SkillContainer from "./SkillContainer/SkillContainer";
-import {
-  FirebaseSVG,
-  ReactSVG,
-  JavascriptSVG,
-  NodeJSSVG,
-  Html5SVG,
-  Css3SVG,
-  MongoDBSVG,
-  ExpressJSSVG,
-} from "../SVGs";
+import FirebaseSVG from "../SVGs/FirebaseSVG/FirebaseSVG"
+import ReactSVG from "../SVGs/ReactSVG/ReactSVG"
+import JavascriptSVG from "../SVGs/JavascriptSVG/JavascriptSVG"
+import NodeJSSVG from "../SVGs/NodeJSSVG/NodeJSSVG"
+import Html5SVG from "../SVGs/HTML5SVG/HTML5SVG"
+import Css3SVG from "../SVGs/Css3SVG/Css3SVG"
+import MongoDBSVG from "../SVGs/MongoDBSVG/MongoDBSVG"
+import ExpressJSSVG from "../SVGs/ExpressJSSVG/ExpressJSSVG"
+
 const index = () => {
   const skillsArr = [
     {
