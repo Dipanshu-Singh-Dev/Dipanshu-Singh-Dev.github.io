@@ -2,7 +2,8 @@ import styles from "./Navbar.module.css"
 import WhiteButton from "../Button/white"
 import BlackButton from "../Button/black"
 import Sidebar from "./Sidebar/Sidebar";
-import { CrossSVG, Hamburger } from "../SVGs";
+import CrossSVG from "../SVGs/CrossSVG/CrossSVG";
+import Hamburger from "../SVGs/HamburgerSVG/Hamburger";
 import { useState } from "react";
 const Navbar = () => {
   const handleClick = () => setSidebaropen((prev) => !prev);
