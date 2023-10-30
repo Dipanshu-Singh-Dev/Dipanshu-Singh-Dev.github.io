@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://dipanshu-singh-dev.github.io",
+  "base": "/",
   "scripts": {
     "start": "vite",
     "build": "vite build",

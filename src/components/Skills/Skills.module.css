@@ -4,6 +4,7 @@
 
 #skillsContainer{
     display: grid;
+    margin: auto;
     gap: 20px;
     grid-template-columns: repeat(6,1fr);
 }
