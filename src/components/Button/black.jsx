@@ -1,4 +1,4 @@
-import { ExternalLinkSVG } from "../SVGs";
+import ExternalLinkSVG from "../SVGs/ExternalLinkSVG/ExternalLinkSVG";
 import styles from "./black.module.css"
 const black = ({text,className,icon,id,external}) => {
 return (
