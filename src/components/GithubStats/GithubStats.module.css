@@ -14,5 +14,24 @@
 }
 .StatImages{
     margin: auto;
-    height: 187px;
+    height: 13.25vw;
+}
+@media screen and (min-width:427px) and (max-width:768px){
+    .SVGContainer {
+        flex-direction: column;
+    }
+    .StatImages {
+        width: 90%;
+        height: auto;
+    }
+}
+@media screen and (min-width:0) and (max-width:426px) {
+    .SVGContainer {
+        flex-direction: column;
+    }
+
+    .StatImages {
+        width: 100%;
+        height: auto;
+    }
 }
