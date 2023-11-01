@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./styles.module.css"
 import Head1 from "../Head1/Head1"
-import Seperator from "../Seperator"
+import Seperator from "../Separator/Separator"
 const index = () => {
   return (
     <div id="about" className={styles.container}>

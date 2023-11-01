@@ -1,6 +1,6 @@
 import styles from "./Skills.module.css"
 import Head1 from "../Head1/Head1"
-import Seperator from "../Seperator"
+import Seperator from "../Separator/Separator"
 import SkillContainer from "./SkillContainer/SkillContainer";
 import FirebaseSVG from "../SVGs/FirebaseSVG/FirebaseSVG"
 import ReactSVG from "../SVGs/ReactSVG/ReactSVG"
