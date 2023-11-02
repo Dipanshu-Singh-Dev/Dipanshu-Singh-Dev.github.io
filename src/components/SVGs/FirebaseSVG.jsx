@@ -1,8 +1,7 @@
-import styles from "./FirebaseSVG.module.css";
-const Firebase = () => {
+const Firebase = ({styleClass}) => {
   return (
     <svg
-    id={styles.svg}
+      id={styleClass}
       height="64px"
       viewBox="0 0 15 15"
       fill="none"

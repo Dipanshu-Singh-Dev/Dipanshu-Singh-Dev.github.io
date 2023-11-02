@@ -1,10 +1,8 @@
-import styles from "./MongoDBSVG.module.css"
-const MongDBSVG = () => {
+const MongDBSVG = ({styleClass}) => {
   return (
     <svg
-    id={styles.svg}
+      id={styleClass}
       height="64px"
-      role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >

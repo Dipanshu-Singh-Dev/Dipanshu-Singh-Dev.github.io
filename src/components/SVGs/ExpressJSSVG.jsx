@@ -1,8 +1,7 @@
-import styles from "./ExpressJSSVG.module.css"
-const ExpressJSSVG = () => {
+const ExpressJSSVG = ({ styleClass }) => {
   return (
     <svg
-    id={styles.svg}
+      id={styleClass}
       xmlns="http://www.w3.org/2000/svg"
       width="100"
       height="100"
@@ -18,6 +17,6 @@ const ExpressJSSVG = () => {
       ></path>
     </svg>
   );
-}
+};
 
 export default ExpressJSSVG

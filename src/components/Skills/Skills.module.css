@@ -8,18 +8,118 @@
     gap: 20px;
     grid-template-columns: repeat(6,1fr);
 }
-@media screen and (min-width: 1024px) and (max-width:1200px) {
+.skillContainer p {
+    color: lightgray;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
 }
-@media screen and (min-width: 768px) and (max-width:1023px) {
+
+.skillContainer:hover p {
+    color: white;
+}
+.skillContainer svg{
+    height: 64px;
+    transition: all .3s ease-in-out;
+}
+#react,#mongo,#node,#js,#java{
+    fill: #d3d3d3;
+}
+.skillContainer #python path{
+    transition: all .3s ease-in-out;
+}
+.skillContainer:hover #python path{
+    stroke: white;
+}
+.skillContainer:hover #react,.skillContainer:hover #mongo,.skillContainer:hover #node,.skillContainer:hover #js,
+.skillContainer:hover #java{
+    fill: white;
+}
+
+.skillContainer #firebase {
+    fill: none;
+    stroke: lightgray;
+    stroke-width: 5%;
+}
+
+.skillContainer:hover #firebase {
+    stroke: white;
+}
+.skillContainer #express {
+    height: 64px;
+    stroke: lightgray;
+    transition: all .3s ease-in-out;
+}
+
+.skillContainer #express path {
+    fill: lightgray;
+    transition: all .3s ease-in-out;
+}
+
+.skillContainer:hover #express {
+    stroke: white;
+}
+
+.skillContainer:hover #express path {
+    fill: white;
+}
+.skillContainer #html path {
+    fill: lightgray;
+    transition: all 0.3s ease-in-out;
+}
+
+.skillContainer:hover #html path {
+    fill: white;
+}
+.skillContainer #css3 path {
+    stroke-width: 0%;
+    fill: lightgray;
+    stroke: lightgray;
+    transition: all 0.3s ease-in-out;
+}
+
+.skillContainer:hover #css3 path {
+    stroke: white;
+    fill: white;
+}
+.skillContainer:hover #git{
+    fill: white;
+    stroke: white;
+}
+.skillContainer #git g{
+    fill: none;
+    transition: all .3s ease-in-out;
+    stroke: #d3d3d3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.skillContainer:hover #git g{
+    stroke: white;
+}
+.skillContainer:hover #github{
+    stroke: white;
+}
+@media screen and (min-width: 769px) and (max-width:1023px) {
     #skillsContainer {
-        grid-template-columns: repeat(5, 1fr);
-        gap: 15px;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 5px;
+        row-gap: 20px;
+    }
+    .skillContainer{
+        font-size: 14px;
+    }
+    .skillContainer svg{
+        height: 60px;
     }
 }
 
-@media screen and (min-width: 0px) and (max-width:767px){
+@media screen and (min-width: 0px) and (max-width:768px){
     #skillsContainer{
-        gap: 15px;
         grid-template-columns: repeat(4,1fr);
+        gap: 15px;
+    }
+    .skillContainer svg {
+        height: 60px;
+        font-size: 12px;
     }
 }

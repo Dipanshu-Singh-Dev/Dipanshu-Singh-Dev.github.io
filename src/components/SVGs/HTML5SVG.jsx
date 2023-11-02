@@ -1,7 +1,6 @@
-import styles from "./HTML5SVG.module.css"
-const Html5SVG = () => {
+const Html5SVG = ({styleClass}) => {
   return (
-    <svg id={styles.svg} viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg id={styleClass} viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g
         id="SVGRepo_tracerCarrier"
