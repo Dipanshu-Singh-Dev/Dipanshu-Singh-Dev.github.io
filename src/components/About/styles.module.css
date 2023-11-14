@@ -36,7 +36,18 @@
     justify-content: center;
     margin: 20px auto;
 }
-
+#buttonContainer{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#aboutDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 .head2{
     color: ghostwhite;
     font-size: 30px;
