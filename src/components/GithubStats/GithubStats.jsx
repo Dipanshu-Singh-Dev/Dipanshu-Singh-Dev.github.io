@@ -20,7 +20,7 @@ const GithubStats = () => {
         <img
           id="normalLangs"
           className={styles.StatImages}
-          src="https:/is-potato2.vercel.app/api/top-langs/?username=dipanshu-singh-dev&layout=donut&langs_count=4&theme=transparent&text_color=d3d3d3&title_color=ffffff"
+          src="https://is-potato2.vercel.app/api/top-langs/?username=dipanshu-singh-dev&layout=donut&langs_count=4&theme=transparent&text_color=d3d3d3&title_color=ffffff"
           alt="langs"
         />
       </div>
@@ -31,7 +31,7 @@ const GithubStats = () => {
           weekStart="1"
           username="dipanshu-singh-dev"
           colorScheme="dark"
-          style={{ color: "white",width:"90%",margin:'auto' }}
+          style={{ color: "white", width: "90%", margin: "auto" }}
         />
       </div>
       <Separator />

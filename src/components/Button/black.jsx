@@ -1,9 +1,9 @@
 import ExternalLinkSVG from "../SVGs/ExternalLinkSVG/ExternalLinkSVG";
 import styles from "./black.module.css"
-const black = ({text,className,icon,id,external}) => {
+const black = ({text,icon,id,external}) => {
 return (
   <div id={styles.vercel_button}>
-    <button id={id} className={className}>
+    <button id={id} >
       {icon && <img src={icon} alt="icon" />}
       {text}
       {external && <ExternalLinkSVG/>}
