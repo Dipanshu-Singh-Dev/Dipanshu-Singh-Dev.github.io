@@ -1,10 +1,10 @@
-#contact svg{
+.contact svg{
     height: 128px;
     stroke: #d3d3d3;
     stroke-width: 2%;
     transition: all .3s ease-in-out;
 }
-#contact{
+.contact{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,11 +16,11 @@
     justify-content: space-around;
     text-align: center;
 }
-#contact a{
+.contact a{
     text-decoration: none;
     font-family: 'Poppins',sans-serif;
 }
-#contact p{
+.contact p{
     color: #d3d3d3;
     transition: all .3s ease-in-out;
 }
@@ -36,26 +36,26 @@ stroke: white;
 color:white ;
 }
 @media screen and (max-width:1024px) {
-    #contact p{
+    .contact p{
         font-size: 18px;
     }
-    #contact svg{
+    .contact svg{
         height: 64px;
     }
 }
 @media screen and (max-width:768px) {
-    #contact svg {
+    .contact svg {
         height: 48px;
     }
-    #contact p {
+    .contact p {
         font-size: 15px;
     }
 }
 @media screen and (max-width:425px) {
-    #contact svg {
+    .contact svg {
         height: 32px;
     }
-    #contact p {
+    .contact p {
         font-size: 8px;
     }
 }

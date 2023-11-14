@@ -1,14 +1,14 @@
-#container{
+.container{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 15px;
 }
-#container svg{
+.container svg{
         height: 36px;
         fill: lightgray;
 }
-#container #html path{
+.container #html path{
         fill:lightgray
 }

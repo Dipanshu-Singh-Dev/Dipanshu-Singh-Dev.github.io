@@ -3,7 +3,7 @@ import Head1 from '../Head1/Head1'
 import GithubSVG from "../SVGs/GithubSVG";
 const index = () => {
   return (
-    <div id={styles.contact}>
+    <div id="contact" className={styles.contact}>
       <Head1 text="Contact me" />
       <div id={styles.details}>
         <a

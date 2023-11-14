@@ -62,7 +62,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div id={styles.container}>
+    <div id="projects" className={styles.container}>
       <Head1 text="Projects" />
       {arr.map((el) => (
         <Project
