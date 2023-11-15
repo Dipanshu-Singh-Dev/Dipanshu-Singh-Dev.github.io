@@ -6,9 +6,8 @@ import BlackButton from '../Button/black'
 import WhiteButton from "../Button/white";
 const index = () => {
   return (
-    <div id="about" className={styles.container}>
+    <div id="about" className={`${styles.container} about section`}>
       <Head1 text="About Me" />
-
       <div className={styles.imgNDesc}>
         <img
           className="home-img"
@@ -21,8 +20,8 @@ const index = () => {
           </h2>
           <p id="user-detail-intro" className={styles.intro}>
             <span className={styles.position}>Full Stack Web Developer</span>{" "}
-            with proficiency in executing goal-oriented projects. Demonstrated expertise in writing
-            production-ready code using MERN Stack.
+            with proficiency in executing goal-oriented projects. Demonstrated
+            expertise in writing production-ready code using MERN Stack.
           </p>
           <div id={styles.buttonContainer}>
             <BlackButton text="Github" external />
