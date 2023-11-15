@@ -1,6 +1,7 @@
 const Css3SVG = ({ styleClass }) => {
   return (
     <svg
+      className="skills-card-img"
       id={styleClass}
       viewBox="0 0 15 15"
       fill="none"

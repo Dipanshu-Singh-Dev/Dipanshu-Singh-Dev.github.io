@@ -7,7 +7,7 @@ const Index = ({ mockup,title,skills,description,github,demo }) => {
     <div className='project-card' id={styles.container}>
       <img src={mockup} />
       <div id={styles.details}>
-        <h2>{title}</h2>
+        <h2 className='project-title'>{title}</h2>
         <div id={styles.skillsUsed}>
           <p>Made with : </p>
           {skills}

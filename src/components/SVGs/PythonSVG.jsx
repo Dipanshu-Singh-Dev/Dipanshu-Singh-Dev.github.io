@@ -1,6 +1,7 @@
 const PythonSVG = ({styleClass}) => {
   return (
     <svg
+      className="skills-card-img"
       id={styleClass}
       strokeWidth={0.67}
       viewBox="0 0 15 15"

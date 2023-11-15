@@ -3,6 +3,7 @@ import React from 'react'
 const JavaSVG = ({ styleClass }) => {
   return (
     <svg
+      className="skills-card-img"
       id={styleClass}
       fill="#ffffff"
       height="72px"

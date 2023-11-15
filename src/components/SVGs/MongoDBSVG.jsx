@@ -1,6 +1,7 @@
 const MongDBSVG = ({styleClass}) => {
   return (
     <svg
+      className="skills-card-img"
       id={styleClass}
       height="64px"
       viewBox="0 0 24 24"

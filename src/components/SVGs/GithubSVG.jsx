@@ -1,6 +1,7 @@
 const GithubSVG = ({ styleClass }) => {
   return (
     <svg
+      className="skills-card-img"
       id={styleClass}
       viewBox="0 0 24 24"
       fill="none"

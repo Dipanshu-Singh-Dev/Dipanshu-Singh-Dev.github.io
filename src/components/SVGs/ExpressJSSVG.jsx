@@ -1,6 +1,7 @@
 const ExpressJSSVG = ({ styleClass }) => {
   return (
     <svg
+      className="skills-card-img"
       id={styleClass}
       xmlns="http://www.w3.org/2000/svg"
       width="100"

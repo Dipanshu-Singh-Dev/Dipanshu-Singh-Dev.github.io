@@ -1,6 +1,7 @@
 const JavascriptSVG = ({styleClass}) => {
   return (
     <svg
+      className="skills-card-img"
       height="64px"
       id={styleClass}
       viewBox="0 0 24 24"
