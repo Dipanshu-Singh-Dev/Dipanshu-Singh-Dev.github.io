@@ -1,6 +1,6 @@
 .contact svg{
     height: 128px;
-    stroke: #d3d3d3;
+    stroke: #fafafa;
     stroke-width: 2%;
     transition: all .3s ease-in-out;
 }
@@ -22,7 +22,7 @@
     font-family: 'Poppins',sans-serif;
 }
 .contact p{
-    color: #d3d3d3;
+    color: #fafafa;
     transition: all .3s ease-in-out;
 }
 #detail:hover p,#detail:hover svg{
