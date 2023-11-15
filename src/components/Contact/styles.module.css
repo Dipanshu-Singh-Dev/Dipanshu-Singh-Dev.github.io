@@ -25,7 +25,7 @@
     color: #fafafa;
     transition: all .3s ease-in-out;
 }
-#detail:hover p,#detail:hover svg{
+.detail:hover p,.detail:hover svg{
     stroke: white;
     color: white;
 }

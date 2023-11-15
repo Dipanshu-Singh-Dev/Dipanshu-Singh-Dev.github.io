@@ -4,7 +4,7 @@ import BlackButton from "../../Button/black"
 import WhiteButton from "../../Button/white";
 const Index = ({ mockup,title,skills,description,github,demo }) => {
   return (
-    <div id={styles.container}>
+    <div className='project-card' id={styles.container}>
       <img src={mockup} />
       <div id={styles.details}>
         <h2>{title}</h2>

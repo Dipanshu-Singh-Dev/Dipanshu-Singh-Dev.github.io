@@ -7,7 +7,8 @@ const index = () => {
       <Head1 text="Contact me" />
       <div id={styles.details}>
         <a
-          id={styles.detail}
+          className={styles.detail}
+          id="contact-linkedin"
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/dipanshu-singh-645821153/"
@@ -33,7 +34,8 @@ const index = () => {
           <p>LinkedIn</p>
         </a>
         <a
-          id={styles.detail}
+          id="contact-github"
+          className={styles.detail}
           target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/Dipanshu-Singh-Dev"
@@ -43,7 +45,7 @@ const index = () => {
             <p>Github</p>
           </div>
         </a>
-        <a id={styles.detail}>
+        <a className={styles.detail} id="contact-email">
           <svg
             viewBox="0 0 64 64"
             xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +69,7 @@ const index = () => {
             @gmail.com
           </p>
         </a>
-        <a>
+        <a id="contact-phone">
           <svg
             id={styles.phone}
             viewBox="0 0 24 24"
