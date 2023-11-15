@@ -2,7 +2,7 @@ import React from 'react'
 import styles from "./styles.module.css"
 import BlackButton from "../../Button/black"
 import WhiteButton from "../../Button/white";
-const Index = ({ mockup,title,skills,description,github,demo }) => {
+const Index = ({ mockup,title,skills,description,github,demo,contri }) => {
   const handleClick = (link)=>{
     window.open(
         link,
@@ -18,6 +18,7 @@ const Index = ({ mockup,title,skills,description,github,demo }) => {
           <p>Made with : </p>
           {skills}
         </div>
+        <p>Area of Responsibility : {contri}</p>
         <p className="project-description">{description}</p>
         <div id={styles.buttonContainer}>
           <BlackButton

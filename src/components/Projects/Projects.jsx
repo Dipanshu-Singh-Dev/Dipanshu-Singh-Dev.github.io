@@ -16,6 +16,7 @@ const Projects = () => {
         <HTML5SVG styleClass={styles.html} />,
         <Css3SVG />,
       ],
+      contri: "Products Page",
       description:
         "A fully functional e-commerce website, offers a wide variety of plants and gardening supplies.",
       github: "https://github.com/Dipanshu-Singh-Dev/Green-Paradise/",
@@ -29,6 +30,7 @@ const Projects = () => {
         <HTML5SVG styleClass={styles.html} />,
         <Css3SVG />,
       ],
+      contri: "Homepage",
       description:
         "Online beauty and wellness destination, Offering a comprehensive selection of beauty and wellness products.",
       github: "https://github.com/Dipanshu-Singh-Dev/Nyka",
@@ -37,6 +39,7 @@ const Projects = () => {
     {
       mockup: "./Projects/SAWS.png",
       title: "SAWS",
+      contri: "Homepage",
       skills: [
         <ReactSVG />,
         <HTML5SVG styleClass={styles.html} />,
@@ -55,6 +58,7 @@ const Projects = () => {
         <HTML5SVG styleClass={styles.html} />,
         <Css3SVG />,
       ],
+      contri: "Everything",
       description:
         "A google clone with extensive functionality with an full fledged shopping section, a videos section wtih video player and more.",
       github: "https://github.com/Dipanshu-Singh-Dev/google_clone",
@@ -73,6 +77,7 @@ const Projects = () => {
           description={el.description}
           github={el.github}
           demo={el.demo}
+          contri={el.contri}
         />
       ))}
       <Separator />
