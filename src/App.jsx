@@ -11,6 +11,7 @@ function App() {
   return (
     <>
       <BlurryBlob />
+      <div id="home"></div>
       <Navbar />
       <div id="app">
         <About />
