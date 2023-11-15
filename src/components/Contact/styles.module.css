@@ -25,13 +25,11 @@
     color: #fafafa;
     transition: all .3s ease-in-out;
 }
-.detail:hover p,.detail:hover svg{
+.detail:hover p,.detail:hover svg,.detail:hover #phone{
     stroke: white;
     color: white;
 }
-#phone path,#phone p {
-    transition: all .3s ease-in-out;
-}
+
 #phone:hover path,#phone:hover~p{
 stroke: white;
 color:white ;
