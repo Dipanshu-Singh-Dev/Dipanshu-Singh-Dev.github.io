@@ -1,4 +1,4 @@
-import Project from "./Project"
+import Project from "./Project/Project"
 import styles from "./Projects.module.css";
 import Head1 from "../Head1/Head1"
 import ReactSVG from "../SVGs/ReactSVG"
