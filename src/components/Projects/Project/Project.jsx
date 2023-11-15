@@ -14,8 +14,16 @@ const Index = ({ mockup,title,skills,description,github,demo }) => {
         </div>
         <p className="project-description">{description}</p>
         <div id={styles.buttonContainer}>
-          <BlackButton text="Github" external />
-          <WhiteButton text="Demo" external />
+          <BlackButton
+            text="Github"
+            external
+            childClass="project-github-link"
+          />
+          <WhiteButton
+            text="Demo"
+            external
+            childClass="project-deployed-link"
+          />
         </div>
       </div>
     </div>
