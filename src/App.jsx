@@ -13,7 +13,7 @@ function App() {
       <BlurryBlob />
       <Navbar />
       <div id="app">
-      <div id="home"></div>
+      <div style={{height:'10px'}} id="home"></div>
         <About />
         <Skills />
         <GithubStats />
