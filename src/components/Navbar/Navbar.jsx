@@ -34,10 +34,10 @@ const Navbar = () => {
         </a>
       </div>
       <div className={styles.buttonsContainer}>
-        <BlackButton external text="Github" childClass="nav-link github" />
+        <BlackButton external text="Github" childClass="nav-link github" childId="github-button-1" />
         <WhiteButton
           external
-          id="resume-button-1"
+          childId="resume-button-1"
           childClass="nav-link resume"
           text="Resume"
         />

@@ -24,8 +24,8 @@ const index = () => {
             expertise in writing production-ready code using MERN Stack.
           </p>
           <div id={styles.buttonContainer}>
-            <BlackButton text="Github" external />
-            <WhiteButton external text="Resume" />
+            <BlackButton text="Github" external childId="github-button-2" />
+            <WhiteButton external text="Resume" childId="resume-button-2" />
           </div>
         </div>
       </div>
