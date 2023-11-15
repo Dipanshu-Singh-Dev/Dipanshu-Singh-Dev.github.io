@@ -71,7 +71,7 @@ const Skills = () => {
         {skillsArr.map((el) => (
           <div className={`${styles.skillContainer} skills-card`} key={el.name}>
             {el.icon}
-            <p>{el.name}</p>
+            <p className="skills-card-name">{el.name}</p>
           </div>
         ))}
       </div>
