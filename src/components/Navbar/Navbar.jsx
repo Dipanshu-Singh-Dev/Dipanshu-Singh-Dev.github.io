@@ -34,13 +34,13 @@ const Navbar = () => {
         </a>
       </div>
       <div className={styles.buttonsContainer}>
+        <BlackButton external text="Github" />
         <WhiteButton
           external
           id="resume-button-1"
           className="nav-link resume"
           text="Resume"
         />
-        <BlackButton external text="Github" />
       </div>
     </nav>
   );
