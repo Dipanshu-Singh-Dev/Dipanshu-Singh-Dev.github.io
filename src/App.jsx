@@ -12,8 +12,8 @@ function App() {
     <>
       <BlurryBlob />
       <Navbar />
-      <div id="home"></div>
       <div id="app">
+      <div id="home"></div>
         <About />
         <Skills />
         <GithubStats />
