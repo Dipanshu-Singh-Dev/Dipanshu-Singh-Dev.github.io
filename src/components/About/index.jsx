@@ -5,6 +5,16 @@ import Seperator from "../Separator/Separator"
 import BlackButton from '../Button/black'
 import WhiteButton from "../Button/white";
 const index = () => {
+  const downloadHandle = () => {
+    const link = document.createElement("a");
+    link.download = "resume.pdf";
+    link.href = "resume.pdf";
+    link.click();
+    window.open(
+      "https://drive.google.com/file/d/1-0iliASsudh0IzbdMs4SBTnxGUXh3Z20/view?usp=sharing",
+      "_blank"
+    );
+  };
   return (
     <div id="about" className={`${styles.container} about section`}>
       <Head1 text="About Me" />
@@ -24,8 +34,20 @@ const index = () => {
             expertise in writing production-ready code using MERN Stack.
           </p>
           <div id={styles.buttonContainer}>
-            <BlackButton text="Github" external childId="github-button-2" />
-            <WhiteButton external text="Resume" childId="resume-button-2" />
+            <BlackButton
+              event={() => {
+                window.open("https://github.com/Dipanshu-Singh-Dev", "_blank");
+              }}
+              text="Github"
+              external
+              childId="github-button-2"
+            />
+            <WhiteButton
+              event={downloadHandle}
+              external
+              text="Resume"
+              childId="resume-button-2"
+            />
           </div>
         </div>
       </div>

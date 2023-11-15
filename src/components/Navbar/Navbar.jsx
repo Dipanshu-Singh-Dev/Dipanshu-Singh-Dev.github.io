@@ -8,6 +8,16 @@ import { useState } from "react";
 const Navbar = () => {
   const handleClick = () => setSidebaropen((prev) => !prev);
   const [sidebarOpen,setSidebaropen] = useState(false)
+  const downloadHandle = () => {
+    const link = document.createElement("a");
+    link.download = "resume.pdf";
+    link.href = 'resume.pdf';
+    link.click();
+    window.open(
+      "https://drive.google.com/file/d/1-0iliASsudh0IzbdMs4SBTnxGUXh3Z20/view?usp=sharing",
+      "_blank"
+    );
+  };
   return (
     <nav id="nav-menu" className={styles.navbar}>
       {sidebarOpen ? (
@@ -34,9 +44,12 @@ const Navbar = () => {
         </a>
       </div>
       <div className={styles.buttonsContainer}>
-        <BlackButton external text="Github" childClass="nav-link github" childId="github-button-1" />
+        <BlackButton event={() => {
+            window.open("https://github.com/Dipanshu-Singh-Dev", "_blank");
+          }} external text="Github" childClass="nav-link github" childId="github-button-1" />
         <WhiteButton
           external
+          event = {downloadHandle}
           childId="resume-button-1"
           childClass="nav-link resume"
           text="Resume"
