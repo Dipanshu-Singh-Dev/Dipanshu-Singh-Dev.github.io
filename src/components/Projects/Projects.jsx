@@ -20,7 +20,7 @@ const Projects = () => {
       description:
         "A fully functional e-commerce website, offers a wide variety of plants and gardening supplies.",
       github: "https://github.com/Dipanshu-Singh-Dev/Green-Paradise/",
-      demo: "https://green-paradise-team.netlify.app/",
+      demo: "https://green-paradiso.netlify.app/",
     },
     {
       mockup: "./Projects/nykaa.png",
@@ -48,7 +48,7 @@ const Projects = () => {
       description:
         "Built with cutting-edge technologies like HTML, CSS, and JavaScript, This website offers a seamless shopping experience.",
       github: "https://github.com/Dipanshu-Singh-Dev/Nyka",
-      demo: "https://enolc-nykaa.netlify.app/",
+      demo: "https://saws.netlify.app/",
     },
     {
       mockup: "./Projects/goggol.png",
