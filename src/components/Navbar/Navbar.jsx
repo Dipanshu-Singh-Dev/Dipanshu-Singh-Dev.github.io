@@ -11,7 +11,7 @@ const Navbar = () => {
   const downloadHandle = () => {
     const link = document.createElement("a");
     link.download = "Dipanshu-Singh-Resume.pdf";
-    link.href = "Dipanshu-Singh-Resume.pdf";
+    link.href = "/Dipanshu-Singh-Resume.pdf";
     link.click();
     window.open(
       "https://drive.google.com/file/d/1H9XDJ9qn1P9qVp_b-GitjK8bSbDCJ0o1/view?usp=sharing",
