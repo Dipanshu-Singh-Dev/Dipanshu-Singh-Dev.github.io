@@ -12,7 +12,7 @@ const Projects = () => {
       mockup: "./Projects/green_paradise.png",
       title: "Green Paradise",
       skills: [
-        <ReactSVG />,
+        <JavascriptSVG SVG />,
         <HTML5SVG styleClass={styles.html} />,
         <Css3SVG />,
       ],
