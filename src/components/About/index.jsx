@@ -11,7 +11,7 @@ const index = () => {
     link.href = "Dipanshu-Singh-Resume.pdf";
     link.click();
     window.open(
-      "https://drive.google.com/file/d/bc1qs8x6caxpkns9szm37d8csd6ej4nr67qx3hk732/view?usp=drive_link",
+      "https://drive.google.com/file/d/1H9XDJ9qn1P9qVp_b-GitjK8bSbDCJ0o1/view?usp=sharing",
       "_blank"
     );
   };
