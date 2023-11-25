@@ -10,8 +10,8 @@ const Navbar = () => {
   const [sidebarOpen,setSidebaropen] = useState(false)
   const downloadHandle = () => {
     const link = document.createElement("a");
-    link.download = "resume.pdf";
-    link.href = 'resume.pdf';
+    link.download = "Dipanshu-Singh-Resume.pdf";
+    link.href = "Dipanshu-Singh-Resume.pdf";
     link.click();
     window.open(
       "https://drive.google.com/file/d/1-0iliASsudh0IzbdMs4SBTnxGUXh3Z20/view?usp=sharing",
