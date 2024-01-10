@@ -14,6 +14,8 @@
     margin: auto;
     border: 2px solid lightgray;
     border-radius: 100%;
+    aspect-ratio: 1;
+    max-width: 25vw;
 }
 .intro{
     color: ghostwhite;
@@ -56,7 +58,7 @@
 }
 @media screen and (min-width: 768px ) and (max-width: 1024px){
     .imgNDesc {
-            flex-direction: row;
+        flex-direction: row;
     }
     
     .container img {
