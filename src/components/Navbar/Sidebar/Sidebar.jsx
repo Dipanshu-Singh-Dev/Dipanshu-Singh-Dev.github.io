@@ -7,9 +7,6 @@ const Sidebar = ({ sidebarOpen }) => {
       className={sidebarOpen ? styles.open : styles.closed}
     >
       {/* Links visible on larger viewports */}
-      <a className="nav-link home" href="#home">
-        Home
-      </a>
       <a className="nav-link about" href="#about">
         About
       </a>

@@ -27,9 +27,6 @@ const Navbar = () => {
       )}
       {sidebarOpen && <Sidebar sidebarOpen />}
       <div id={styles.options}>
-        <a className="nav-link home" href="#home">
-          Home
-        </a>
         <a className="nav-link about" href="#about">
           About
         </a>

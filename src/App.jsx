@@ -14,7 +14,6 @@ function App() {
       <BlurryBlob />
       <Navbar />
       <div id="app">
-        <div style={{ height: "0px" }} id="home"></div>
           <About />
         <Suspense fallback={<div>Lazy Loading...</div>}>
           <Skills />
