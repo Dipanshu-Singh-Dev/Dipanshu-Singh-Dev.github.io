@@ -11,8 +11,6 @@ body {
   margin: 0;
   padding: 0;
   position: relative;
-  overflow-x: hidden;
-  width: 100vw;
 }
 
 #backdrop {
@@ -26,11 +24,6 @@ body {
 }
 
 #app{
-  width: 90%;
-  margin: auto;
-}
-@media screen and (min-width:0px) and (max-width:768px) {
-  #app {
-      width: 95%;
-    }
+  width: 100%;
+  padding: 5px;
 }
