@@ -1,5 +1,5 @@
 import Separator from '../Separator/Separator'
-import styles from "./GithubStats.module.css"
+import styles from "./styles.module.css"
 import Head1 from "../Head1/Head1"
 import GitHubCalendar from "react-github-calendar-dipanshu";
 const GithubStats = () => {

@@ -1,4 +1,4 @@
-import styles from "./Skills.module.css"
+import styles from "./styles.module.css"
 import Head1 from "../Head1/Head1"
 import Seperator from "../Separator/Separator"
 import FirebaseSVG from "../SVGs/FirebaseSVG"

@@ -1,5 +1,5 @@
 import Project from "./Project/Project"
-import styles from "./Projects.module.css";
+import styles from "./styles.module.css";
 import Head1 from "../Head1/Head1"
 import ReactSVG from "../SVGs/ReactSVG"
 import HTML5SVG from "../SVGs/HTML5SVG";
