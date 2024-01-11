@@ -1,5 +1,5 @@
 // App.jsx
-import React, { lazy, Suspense } from "react";
+import  { lazy, Suspense } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import BlurryBlob from "./components/BlurryBlob";
 import About from "./components/About";
@@ -16,19 +16,19 @@ function App() {
       <div id="app">
         <div style={{ height: "0px" }} id="home"></div>
           <About />
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<div>Lazy Loading...</div>}>
           <Skills />
         </Suspense>
 
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<div>Lazy Loading...</div>}>
           <GithubStats />
         </Suspense>
 
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<div>Lazy Loading...</div>}>
           <Projects />
         </Suspense>
 
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<div>Lazy Loading...</div>}>
           <Contact />
         </Suspense>
       </div>
