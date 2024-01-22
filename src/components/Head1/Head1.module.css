@@ -3,3 +3,13 @@
     font-size: 48px;
     font-family: Poppins, sans-serif;
 }
+@media screen and (max-width: 768px) {
+    .head1 {
+        font-size: 36px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .head1 {
+        font-size: 32px;
+    }
+}
