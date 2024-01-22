@@ -15,7 +15,7 @@ const index = () => {
     );
   };
   return (
-    <div id="about" className={`${styles.container} about section`}>
+    <div id="about" className={`${styles.container} about section`} >
       <Head1 text="About Me" />
       <div className={styles.imgNDesc}>
         <img

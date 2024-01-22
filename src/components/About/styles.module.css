@@ -1,10 +1,9 @@
 .container {
     font-family: Inter, sans-serif;
-    padding:10px 10px;
     max-width: 100%;
     background: none transparent;
     text-align: center;
-
+    padding: 20px 50px;
 }
 .container *{
     background: transparent;
@@ -58,10 +57,13 @@
     font-family: Inter, sans-serif;
 }
 @media screen and (min-width: 768px ) and (max-width: 1024px){
+    .container {
+            margin: 10px 50px 20px 50px;
+    }
     .imgNDesc {
         flex-direction: row;
     }
-    
+
     .container img {
             width: 40%;
     }
@@ -85,6 +87,9 @@
     .imgNDesc{
         flex-direction: column;
     }
+    .container {
+        margin:10px 50px 20px 50px;
+    }
     .container img{
         width: 50%;
     }
@@ -95,7 +100,6 @@
         font-size: 15px;
     }
     .intro{
-        width: 67%;
         margin-bottom: 40px;
         font-size: 14px;
         letter-spacing: 0px;
