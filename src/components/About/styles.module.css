@@ -3,7 +3,6 @@
     max-width: 100%;
     background: none transparent;
     text-align: center;
-    padding: 20px 50px;
 }
 .container *{
     background: transparent;
@@ -32,7 +31,7 @@
 .imgNDesc{
     display: flex;
     flex-direction: row;
-    row-gap: 30px;
+    gap: 30px;
     border-top: 2px soild ghostwhite;
     border-bottom: 2px soild ghostwhite;
     justify-content: space-between;
@@ -83,7 +82,7 @@
     }
 }
 
-@media screen and (min-width: 426px) and (max-width: 767px) {
+@media screen and (min-width: 427px) and (max-width: 767px) {
     .imgNDesc{
         flex-direction: column;
     }
@@ -116,7 +115,7 @@
     }
 
     .container img {
-        width: 50%;
+        width: 75%;
     }
 
     .head2 {
