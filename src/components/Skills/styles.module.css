@@ -127,23 +127,14 @@
         margin: 50px;
     }
 
-    .skillContainer svg {
-        height: 60px;
-        font-size: 12px;
-    }
 }
 @media screen and (min-width: 0px) and (max-width:426px) {
     #skillsContainer {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 10px;
     }
-
     .container {
         margin: 10px;
     }
 
-    .skillContainer svg {
-        height: 45px;
-        font-size: 11px;
-    }
 }
