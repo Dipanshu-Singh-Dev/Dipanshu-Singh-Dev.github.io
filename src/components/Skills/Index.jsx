@@ -75,7 +75,7 @@ const Skills = () => {
           </div>
         ))}
       </div>
-      <Seperator />
+
     </div>
   );
 }

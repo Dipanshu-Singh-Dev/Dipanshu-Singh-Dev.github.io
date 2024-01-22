@@ -102,7 +102,7 @@
 }
 @media screen and (min-width: 769px) and (max-width:1023px) {
     .container{
-            margin: 10px 50px 20px 50px;
+        margin: 10px 50px 20px 50px;
     }
     #skillsContainer {
         grid-template-columns: repeat(6, 1fr);
@@ -117,16 +117,33 @@
     }
 }
 
-@media screen and (min-width: 0px) and (max-width:768px){
-    #skillsContainer{
-        grid-template-columns: repeat(4,1fr);
+@media screen and (min-width: 427px) and (max-width:768px) {
+    #skillsContainer {
+        grid-template-columns: repeat(4, 1fr);
         gap: 15px;
     }
+
     .container {
         margin: 50px;
     }
+
     .skillContainer svg {
         height: 60px;
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 0px) and (max-width:426px) {
+    #skillsContainer {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+
+    .container {
+        margin: 10px;
+    }
+
+    .skillContainer svg {
+        height: 48px;
         font-size: 12px;
     }
 }

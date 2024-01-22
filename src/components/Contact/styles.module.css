@@ -56,11 +56,14 @@ color:white ;
         font-size: 15px;
     }
 }
-@media screen and (max-width:425px) {
+@media screen and (max-width:426px) {
+    .contact{
+        margin: 10px;
+    }
     .contact svg {
-        height: 32px;
+            height: 54px;
     }
     .contact p {
-        font-size: 8px;
+        font-size: 11px;
     }
 }

@@ -18,8 +18,13 @@
                 margin: 10px 50px 20px 50px;
         }
 }
-@media screen and (min-width: 0px) and (max-width: 767px) {
+@media screen and (min-width: 427px) and (max-width: 767px) {
         .container{
                 margin: 10px 50px 20px 50px;
+        }
+}
+@media screen and (min-width: 0px) and (max-width: 426px) {
+        .container {
+                margin: 10px 10px 20px 10px;
         }
 }

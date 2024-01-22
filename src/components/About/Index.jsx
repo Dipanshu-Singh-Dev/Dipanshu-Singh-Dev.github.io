@@ -50,7 +50,6 @@ const index = () => {
           </div>
         </div>
       </div>
-      <Seperator />
     </div>
   );
 }

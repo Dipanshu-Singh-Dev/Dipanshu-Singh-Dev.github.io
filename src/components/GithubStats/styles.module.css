@@ -49,6 +49,12 @@ h2{
     .SVGContainer {
         flex-direction: column;
     }
+    .container{
+        margin:10px;
+    }
+    #calendar{
+        display: none;
+    }
     .StatImages {
         width: 100%;
         height: auto;

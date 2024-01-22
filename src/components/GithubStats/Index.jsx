@@ -36,7 +36,6 @@ const GithubStats = () => {
           style={{ color: "white", width: "90%", margin: "auto" }}
         />
       </div>
-      <Separator />
     </div>
   );
 }

@@ -80,7 +80,6 @@ const Projects = () => {
           contri={el.contri}
         />
       ))}
-      <Separator />
     </div>
   );
 }

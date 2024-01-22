@@ -32,10 +32,10 @@
 .imgNDesc{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    row-gap: 30px;
     border-top: 2px soild ghostwhite;
     border-bottom: 2px soild ghostwhite;
-    justify-content: center;
+    justify-content: space-between;
     margin: 20px auto;
 }
 #buttonContainer{
@@ -83,7 +83,7 @@
     }
 }
 
-@media screen and (min-width: 0px) and (max-width: 767px) {
+@media screen and (min-width: 426px) and (max-width: 767px) {
     .imgNDesc{
         flex-direction: column;
     }
@@ -100,6 +100,34 @@
         font-size: 15px;
     }
     .intro{
+        margin-bottom: 40px;
+        font-size: 14px;
+        letter-spacing: 0px;
+        word-spacing: 1px;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 426px) {
+    .imgNDesc {
+        flex-direction: column;
+    }
+    .container {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .container img {
+        width: 50%;
+    }
+
+    .head2 {
+        font-size: 16px;
+    }
+
+    .position {
+        font-size: 15px;
+    }
+
+    .intro {
         margin-bottom: 40px;
         font-size: 14px;
         letter-spacing: 0px;
