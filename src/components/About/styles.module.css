@@ -3,6 +3,7 @@
     max-width: 100%;
     background: none transparent;
     text-align: center;
+    margin-bottom: 25px;
 }
 .container *{
     background: transparent;
