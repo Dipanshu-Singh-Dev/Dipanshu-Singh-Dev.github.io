@@ -10,7 +10,7 @@ const index = () => {
     link.href = "Dipanshu_Singh_Resume.pdf";
     link.click();
     window.open(
-      "https://drive.google.com/file/d/1H9XDJ9qn1P9qVp_b-GitjK8bSbDCJ0o1/view?usp=sharing",
+      "https://rxresu.me/work.dipanshu.singh/stuck-healthy-owl",
       "_blank"
     );
   };
