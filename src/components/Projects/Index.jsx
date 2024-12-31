@@ -20,7 +20,7 @@ const Projects = () => {
       description:
         "A fully functional e-commerce website, offers a wide variety of plants and gardening supplies.",
       github: "https://github.com/Dipanshu-Singh-Dev/Green-Paradise/",
-      demo: "https://green-paradiso.netlify.app/",
+      demo: "https://green-paradise-dip.vercel.app/",
     },
     {
       mockup: "./Projects/nykaa.png",
@@ -34,22 +34,22 @@ const Projects = () => {
       description:
         "Online beauty and wellness destination, Offering a comprehensive selection of beauty and wellness products.",
       github: "https://github.com/Dipanshu-Singh-Dev/Nyka",
-      demo: "https://enolc-nykaa.netlify.app/",
+      demo: "https://nykaa-clone-dip.vercel.app/",
     },
-    {
-      mockup: "./Projects/SAWS.png",
-      title: "SAWS",
-      contri: "Homepage",
-      skills: [
-        <ReactSVG />,
-        <HTML5SVG styleClass={styles.html} />,
-        <Css3SVG />,
-      ],
-      description:
-        "Built with cutting-edge technologies like HTML, CSS, and JavaScript, This website offers a seamless shopping experience.",
-      github: "https://github.com/Dipanshu-Singh-Dev/Nyka",
-      demo: "https://saws.netlify.app/",
-    },
+    // {
+    //   mockup: "./Projects/SAWS.png",
+    //   title: "SAWS",
+    //   contri: "Homepage",
+    //   skills: [
+    //     <ReactSVG />,
+    //     <HTML5SVG styleClass={styles.html} />,
+    //     <Css3SVG />,
+    //   ],
+    //   description:
+    //     "Built with cutting-edge technologies like HTML, CSS, and JavaScript, This website offers a seamless shopping experience.",
+    //   github: "https://github.com/Dipanshu-Singh-Dev/Nyka",
+    //   demo: "https://saws.netlify.app/",
+    // },
     {
       mockup: "./Projects/goggol.png",
       title: "Google Clone",
@@ -62,7 +62,7 @@ const Projects = () => {
       description:
         "A google clone with extensive functionality with an full fledged shopping section, a videos section wtih video player and more.",
       github: "https://github.com/Dipanshu-Singh-Dev/google_clone",
-      demo: "https://goggol.netlify.app/",
+      demo: "https://google-clone-dip.vercel.app/",
     },
   ];
   return (
