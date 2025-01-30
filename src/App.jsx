@@ -8,7 +8,9 @@ const Projects = lazy(() => import("./components/Projects/Index"));
 const Contact = lazy(() => import("./components/Contact/Index"));
 const GithubStats = lazy(() => import("./components/GithubStats/Index"));
 import Seperator from "./components/Separator/Separator";
+import { initializeSmoothScrolling } from "./utils/smoothScroll";
 function App() {
+  initializeSmoothScrolling()
   return (
     <>
       <BlurryBlob />
