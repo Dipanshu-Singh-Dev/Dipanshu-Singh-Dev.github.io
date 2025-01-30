@@ -27,6 +27,9 @@ const Navbar = () => {
       )}
       {sidebarOpen && <Sidebar sidebarOpen />}
       <div id={styles.options}>
+        <a className="nav-link home" href="#app">
+          Home
+        </a>
         <a className="nav-link about" href="#about">
           About
         </a>
@@ -41,12 +44,18 @@ const Navbar = () => {
         </a>
       </div>
       <div className={styles.buttonsContainer}>
-        <BlackButton event={() => {
+        <BlackButton
+          event={() => {
             window.open("https://github.com/Dipanshu-Singh-Dev", "_blank");
-          }} external text="Github" childClass="nav-link github" childId="github-button-1" />
+          }}
+          external
+          text="Github"
+          childClass="nav-link github"
+          childId="github-button-1"
+        />
         <WhiteButton
           external
-          event = {downloadHandle}
+          event={downloadHandle}
           childId="resume-button-1"
           childClass="nav-link resume"
           text="Resume"
